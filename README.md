@@ -1,13 +1,4 @@
-My personal react-webpack-babel-whatever boilerplate.
-
-## Features
-* ES2016 + JSX
-* Redux state management
-* Routing with React-router
-* Express webserver
-* CSS Modules
-* Standalone desktop builds using [Electron](http://electron.atom.io/)
-* Mobile builds using [Cordova](https://cordova.apache.org/)
+A clone of Microsoft's Minesweeper written in HTML/CSS/JavaScript using React and Redux.
 
 ## Commands
 
