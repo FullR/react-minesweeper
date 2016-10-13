@@ -1,0 +1,18 @@
+
+.Minesweeper {
+  display: inline-block;
+  padding: 15px;
+}
+
+.Minesweeper__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.Minesweeper__win-label {
+  font-size: 15px;
+}

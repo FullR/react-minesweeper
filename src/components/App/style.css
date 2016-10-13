@@ -1,0 +1,16 @@
+
+.App__game {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App__controls {
+  padding-top: 50px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.App__controls label {
+  display: inline-block;
+  width: 100px;
+}

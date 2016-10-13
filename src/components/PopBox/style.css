@@ -1,0 +1,16 @@
+
+.PopBox {
+  box-sizing: border-box;
+  background: #c0c0c0;
+  border-left: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  border-right: 1px solid #6e6e6e;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.PopBox--inset {
+  border-left: 1px solid #6e6e6e;
+  border-top: 1px solid #6e6e6e;
+  border-right: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}

@@ -1,0 +1,37 @@
+
+.MineCell {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: default;
+}
+
+.MineCell--hidden:hover:active:not(.MineCell--flagged),
+.MineCell--revealed {
+  background: #AAA;
+  border: 1px solid #6e6e6e;
+}
+
+.MineCell--revealed.MineCell--mine {
+  background: #F00;
+}
+
+.MineCell--revealed.MineCell--mine {
+  background-image: url("./mine.png");
+  background-repeat: no-repeat;
+  background-color: #F00;
+  background-size: 70% 70%;
+  background-position: center;
+}
+
+.MineCell--flagged {
+  background-image: url("./flag.png");
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
+  background-position: center;
+}

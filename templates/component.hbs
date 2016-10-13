@@ -1,0 +1,17 @@
+import React, {PropTypes} from "react";
+import classNames from "classnames";
+import "./style.css";
+
+export default function {{properCase name}}(props) {
+  const {children} = props;
+  const className = classNames("{{properCase name}}");
+
+  return (
+    <div {...props} className={className}>
+      {children}
+    </div>
+  );
+}
+
+{{properCase name}}.propTypes = {};
+{{properCase name}}.defaultProps = {};

@@ -1,0 +1,8 @@
+
+.DigitalCounter {
+  display: inline-block;
+  background: #000;
+  color: #F00;
+  font-size: 40px;
+  font-family: Courier;
+}
