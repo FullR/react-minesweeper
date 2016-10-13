@@ -1,5 +1,7 @@
 A clone of Microsoft's Minesweeper written in HTML/CSS/JavaScript using React and Redux.
 
+[Play](http://fullr.github.io/react-minesweeper/)
+
 ## Commands
 
 All commands are run using `npm run`.
